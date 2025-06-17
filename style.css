@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --primary: #004681; 
+    --bg: #010101;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: black ;
+    box-shadow: 0px 0px 15px -0px;
+}
+.manahPraja h2 {
+    font-size: 1.5rem;
+    margin-left: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+/* Tombol Bar */
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* Tombol Bar Finish */
+.right ul {
+    display: flex;
+    list-style: none;
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    padding: 0;
+}
+
+.right ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: .8rem;
+    transition: all .3s ease-out;
+}
+
+.right ul li a:hover {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: black;
+    transition: all .6s ease-in;
+}
+
+/* Bagian Paragraf */
+.heroTextPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+.tentang {
+    padding: 20px;
+}
+
+.contText {
+    margin-right: 50px;
+} 
+
+.fp-ori img {
+    margin-top: 0px;
+    margin-left: 80px;
+    width: 250px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.fp-ori img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+
+.haiSaya {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.paragraf {
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: -5px;
+}
+
+.btnHub button {
+    margin-top: 10px;
+    border: none;
+    background-color: black;
+    color: antiquewhite;
+    padding: 0.5rem 24px;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btnHub button:hover {
+    transform: scale(1.02);
+    background-color: rgb(64, 63, 63);
+}

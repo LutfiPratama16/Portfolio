@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --primary: #004681; 
+    --bg: #010101;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .9) ;
+    /* box-shadow: 0px 0px 15px -0px; */
+}
+.manahPraja h2 {
+    font-size: 1.6rem;
+    margin-left: 80px;
+    margin-top: -6px;
+    cursor: pointer;
+    color: var(--primary);
+}
+/* Tombol Bar */
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* Tombol Bar Finish */
+.right ul {
+    display: flex;
+    list-style: none;
+    /* background-color: aquamarine; */
+    margin-top: -6px;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+    padding: .5rem;
+    border-radius: 2rem;
+}
+
+.right ul li a {
+    display: inline-block;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .2s ease-in;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.right ul:hover a {
+    opacity: .5;
+}
+
+.right ul li a:hover {
+    opacity: 1;
+    border-radius: 8px;
+    font-size: 1.03rem;
+    color: var(--primary);
+}
+
+.portfolio span a{
+    color: white;
+    margin-right: 80px;
+    text-decoration: none;
+    background-color: var(--primary);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.portfolio span a:hover {
+    transform: scale(1.02);
+    background-color: #095c9f;
+}
+
+/* Bagian Paragraf */
+.hero {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+}
+
+.heroTextPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px;
+}
+
+.contText {
+    margin-right: 50px;
+} 
+
+.haiSaya h2 {
+    margin-bottom: -30px;
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+}
+
+.haiSaya h3{
+    margin-bottom: 13px;
+    margin-top: 1rem;
+    font-size: 4rem;
+    color: var(--primary);
+}
+
+.paragraf {
+    width: 700px;
+}
+
+.paragraf p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.paragraf span {
+    font-size: 1.2rem;
+}
+
+.btnHub button {
+    margin-top: 2rem;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    transition: all .2s ease-in-out;
+}
+
+.btnHub button:hover {
+    transform: scale(1.02);
+    background-color: #095c9f;
+}
+
+/* Bagian Paragraf */
+
+/* Profil Picture */
+.fp-ori img {
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 300px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.fp-ori img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.02);
+}
+/* Profil Picture */

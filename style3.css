@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: 'poppins', sans-serif;
+}
+
+:root {
+    --primary: #004681; 
+    --bg: #010101;
+}
+
+.aboutSec {
+    display: block;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.aboutS {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+    width: 78%;
+    border-radius: 24px 24px 0px 0px;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+
+.aboutTitle {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    margin-left: .8rem;
+    color: var(--primary);
+}
+
+.h3WhoAmI {
+    display: flex;
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+.whoAmI p {
+    text-align: justify;
+    margin-bottom: 1rem;
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    padding: 0rem 1.2rem;
+}
+
+.aboutS, .aboutTitle,
+.h3WhoAmI, .whoAmI p {
+    transition: all .5s ease-out;
+}
+
+.aboutS:hover {
+    background-color: var(--primary);
+}
+
+.aboutS:hover .aboutTitle, 
+.aboutS:hover .h3WhoAmI,
+.aboutS:hover .whoAmI p{
+    color: white;
+}
