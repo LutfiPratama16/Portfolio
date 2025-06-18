@@ -8,6 +8,7 @@
 
 :root {
     --primary: #004681; 
+    --secondary: #006ec7;
     --bg: #010101;
 }
 
@@ -62,4 +63,68 @@
 .aboutS:hover .h3WhoAmI,
 .aboutS:hover .whoAmI p{
     color: white;
+}
+
+.skills {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 24px 24px 24px 24px;
+    width: 90%;
+}
+
+.skillsT {
+    display: flex;
+    width: 100%;
+    justify-content: ;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+
+.h3WhatICanDo {
+    display: flex;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.skillsTitle {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    margin-left: .8rem;
+    color: white;
+}
+
+.skills-container {
+    display: block;
+    align-content: center;
+    width: 90%;
+    margin-top: -1.5rem;
+}
+
+.tech-skills {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.list-skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap ;
+    gap: 10px;
+    border: 4px solid var(--secondary);
+    border-radius: 24px;
+    margin-top: 1rem;
+}
+
+.logo-png img {
+    width: 100px;
+    margin: .5rem 0;
+}
+
+.tailpng {
+    width: 140px;
 }
