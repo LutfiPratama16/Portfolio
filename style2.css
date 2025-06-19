@@ -20,9 +20,10 @@ body {
 
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 9999;
     padding: 1rem;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, .9) ;
@@ -30,7 +31,7 @@ body {
 }
 .manahPraja h2 {
     font-size: 1.6rem;
-    margin-left: 80px;
+    /* margin-left: 40%; */
     margin-top: -6px;
     cursor: pointer;
     color: var(--primary);
@@ -44,10 +45,16 @@ body {
     display: none;
 }
 /* Tombol Bar Finish */
+
+.right {
+    display: block;
+    width: 45%;
+}
+
 .right ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
-    /* background-color: aquamarine; */
     margin-top: -6px;
     padding: 0;
     background-color: rgb(240, 240, 240);
@@ -56,9 +63,8 @@ body {
 }
 
 .right ul li a {
-    display: inline-block;
-    padding: 0px 15px;
-    margin: 0px 10px;
+    /* padding: 0px 15px; */
+    /* margin: 0px 10px; */
     text-decoration: none;
     font-size: 1rem;
     color: black;
@@ -82,7 +88,7 @@ body {
 
 .portfolio span a{
     color: white;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     text-decoration: none;
     background-color: var(--primary);
     padding: .5rem 1rem;
