@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* color: white; */
     font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -120,10 +121,6 @@ body {
     align-items: center;
     margin: 0px 150px;
 }
-
-.contText {
-    margin-right: 50px;
-} 
 
 .haiSaya h2 {
     margin-bottom: -30px;
